@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  yii2ecommerce:
+    image: yii2ecommerce
+    build:
+      context: .
+      dockerfile: ./Dockerfile

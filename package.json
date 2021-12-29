@@ -1,0 +1,31 @@
+{
+  "name": "yii2_ecommerce",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">     <a href=\"https://github.com/yiisoft\" target=\"_blank\">         <img src=\"https://avatars0.githubusercontent.com/u/993323\" height=\"100px\">     </a>     <h1 align=\"center\">Yii 2 Advanced Project Template</h1>     <br> </p>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack --config webpack.dev.js",
+    "prod": "npx webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecoderengine/E-commerce-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecoderengine/E-commerce-website/issues"
+  },
+  "homepage": "https://github.com/thecoderengine/E-commerce-website#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "exports-loader": "^3.1.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "sass": "^1.45.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
